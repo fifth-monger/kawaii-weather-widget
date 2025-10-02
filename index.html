@@ -3,34 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Kawaii Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Austin</h1>
-        <p>
-          Wednesday 06:30, sunny
-          <br />
-          Humidity: 24%, Wind: 2m/h
-        </p>
-      </div>
-      <div>🌞 95℉</div>
-    </main>
-
-    <footer>
-      <em>Kawaii weather widget in progress</em> ... 🌸
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Austin</h1>
+          <p>
+            Wednesday 06:30, sunny
+            <br />
+            Humidity: 24%, Wind: 2m/h
+          </p>
+        </div>
+        <div>🌞 95℉</div>
+      </main>
       <br />
-      Created by <a href="https://github.com/fifth-monger">Victoria Garcia</a>
-      • Open-sourced on
-      <a href="https://github.com/fifth-monger/kawaii-weather-widget">GitHub</a>
-      • Hosted by <a href="https://kawaiiweather.netlify.app/">Netlify</a>.
-    </footer>
+      <footer>
+        <em>Kawaii weather widget in progress</em> ... 🌸
+        <br />
+        Created by <a href="https://github.com/fifth-monger">Victoria Garcia</a>
+        • Open-sourced on
+        <a href="https://github.com/fifth-monger/kawaii-weather-widget"
+          >GitHub</a
+        >
+        • Hosted by <a href="https://kawaiiweather.netlify.app/">Netlify</a>.
+      </footer>
+    </div>
   </body>
 </html>
