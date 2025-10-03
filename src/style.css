@@ -54,6 +54,13 @@ main {
 .weather-app-details strong {
   color: #ff677d;
 }
+.large-temperature-display {
+  diaplay: flex;
+  align-items: baseline;
+  gap: 0.35em;
+  white-space: nowrap;
+  line-height: 1;
+}
 .temp-emoji {
   position: relative;
   top: -7px;
