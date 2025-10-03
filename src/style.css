@@ -57,22 +57,21 @@ main {
 .large-temperature-display {
   display: flex;
   align-items: baseline;
-  gap: 0.35em;
+  gap: 0.13em;
   white-space: nowrap;
   line-height: 1;
+  font-size: clamp(56px, 10vw, 140px);
 }
 .temp-emoji {
-  position: relative;
-  top: -7px;
-  font-size: 50px;
+  font-size: 0.66em;
+  transform: translateY(-0.2em);
 }
 .temp-main {
-  font-size: 80px;
+  font-size: 1.1em;
 }
 .temp-unit {
-  font-size: 28px;
-  position: relative;
-  top: -36px;
+  font-size: 0.38em;
+  transform: translateY(-1.3em);
 }
 
 footer {
