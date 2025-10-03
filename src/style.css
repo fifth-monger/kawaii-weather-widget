@@ -51,10 +51,11 @@ main {
   font-size: 16px;
   line-height: 20px;
 }
+.weather-conditions {
+  white-space: nowrap;
+}
 .weather-app-details strong {
   color: #ff677d;
-  align-items: baseline;
-  white-space: nowrap;
 }
 .large-temperature-display {
   display: flex;
