@@ -53,6 +53,7 @@ main {
 }
 .weather-app-details strong {
   color: #ff677d;
+  align-items: baseline;
 }
 .large-temperature-display {
   display: flex;
@@ -63,7 +64,7 @@ main {
   font-size: clamp(56px, 10vw, 140px);
 }
 .temp-emoji {
-  font-size: 0.66em;
+  font-size: 0.65em;
   transform: translateY(-0.2em);
 }
 .temp-main {
