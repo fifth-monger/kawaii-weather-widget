@@ -54,6 +54,7 @@ main {
 .weather-app-details strong {
   color: #ff677d;
   align-items: baseline;
+  white-space: nowrap;
 }
 .large-temperature-display {
   display: flex;
